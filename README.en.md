@@ -34,6 +34,7 @@ This repository contains **installers and documentation**. Application source co
 | Message queue | Prepare, edit and reorder upcoming messages |
 | Comfortable writing and follow-ups | Expand the composer without jumping the conversation; group follow-ups with the original request after completion |
 | Code viewer | Open files inside the panel with language labels, highlighting, search and line navigation |
+| File path and actions | Copy the full path; in the Windows app, open the default application, use the native Open With chooser, or reveal the file in its folder |
 | Change navigation | Start at the first change and jump between marked sections, including changes deep inside large files |
 | Final file summary | See every file touched during a request, labeled Created, Modified or Deleted, in batches of five |
 | HTML previews | Open interactive mockups with local CSS and JavaScript next to your chat |
