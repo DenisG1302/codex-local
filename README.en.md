@@ -22,6 +22,7 @@ This repository contains **installers and documentation**. Application source co
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
 | Useful notifications | Push alerts for results, questions and approvals; visible chats in the foreground stay quiet |
+| Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
 
 ## Ways to connect
 
