@@ -14,38 +14,14 @@ This repository contains **installers and documentation**. Application source co
 
 ## Features
 
-| Feature | Purpose |
+| Feature | What it adds |
 | --- | --- |
-| Windows app and local web | Open the same panel in a dedicated window or a browser on your PC |
-| Local network access | Work from a phone, tablet or another computer on your network |
-| Your own HTTPS domain | Access the panel remotely through a domain and reverse proxy you configure |
-| Mobile PWA | Add the panel to your home screen, use the responsive layout and receive push notifications |
-| Up to five chat panes | Choose a layout and follow several tasks at once |
-| Focus layout | Read one large chat and switch through cards for active tasks and unread replies; the card list is not limited to five |
-| Smart pane selection | Fill expanded layouts with running and waiting chats in project order, preserving your selected active chat |
-| Projects and pins | Group tasks, distinguish projects by color, pin chats and drag to reorder |
-| Search and quick navigation | Find chats and projects by name; open search and actions with Ctrl+K or a custom shortcut |
-| Message bookmarks | Save important replies and return to their place in the conversation |
-| Model and reasoning controls | Choose an available model, reasoning effort and speed mode; remember your selection per chat |
-| Status, subagents and usage | See compact task status and inspect active subagent work |
-| Work history controls | Hide details of completed requests while ongoing work, questions and answers remain visible |
-| Questions and approvals | Answer in the panel, attach images and confirm supported tool requests |
-| Persistent drafts | Keep unfinished text and uploaded attachments separately for each chat after restarting |
-| Message queue | Prepare, edit and reorder upcoming messages |
-| Comfortable writing and follow-ups | Expand the composer without jumping the conversation; group follow-ups with the original request after completion |
-| Code viewer | Open files inside the panel with language labels, highlighting, search and line navigation |
-| File path and actions | Copy the full path; in the Windows app, open the default application, use the native Open With chooser, or reveal the file in its folder |
-| Change navigation | Start at the first change and jump between marked sections, including changes deep inside large files |
-| Final file summary | See every file touched during a request, labeled Created, Modified or Deleted, in batches of five |
-| HTML previews | Open interactive mockups with local CSS and JavaScript next to your chat |
-| Limits and usage | See remaining allowance, renewal time and approximate request usage |
-| Available resets | Review reset credits reported by Codex and redeem them with separate confirmation when supported by your account |
-| Reset announcements | Read localized Codex Resets statuses and possible reset times in your device's time zone |
-| Live theme previews | Choose light, dark and high-contrast palettes, or set your own background and accent colors |
-| Relevant notifications | Receive completions, questions and approval requests; visible chats in the foreground do not generate unnecessary notifications |
-| Tray operation | Close the window while tasks and web access continue; optionally start with Windows |
-| Responsive long conversations | Use cached history, partial streaming updates and background highlighting for large files |
-| One-button updates | Check, download and install signed releases while ongoing tasks continue running |
+| Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
+| Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
+| Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
+| Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
+| Phone and PWA | Access chats from your phone and add the panel to your home screen |
+| Useful notifications | Push alerts for results, questions and approvals; visible chats in the foreground stay quiet |
 
 ## Ways to connect
 
