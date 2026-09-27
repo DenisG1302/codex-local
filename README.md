@@ -1,50 +1,50 @@
 <div align="center">
   <img src="assets/logo.png" width="80" height="80" alt="Codex Local">
   <h1>Codex Local</h1>
-  <p>Ваш Codex — на ПК, в браузере и на телефоне.</p>
-  <p><strong>Windows x64 · локальная панель · веб-доступ и PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
+  <p>Your Codex — on your PC, in a browser and on your phone.</p>
+  <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.ru.md">Русский</a></p>
 </div>
 
 ---
 
-Codex Local — независимое Windows-приложение для работы с установленным Codex через App Server. Собирайте чаты по проектам, ведите несколько задач одновременно и открывайте своё рабочее пространство в приложении, локальном браузере или с другого устройства.
+Codex Local is an independent Windows app that connects to your installed Codex through App Server. Organize chats by project, run several tasks at once and access your workspace in the desktop app, a local browser or another device.
 
-Этот репозиторий содержит **готовые установщики и документацию**. Исходный код приложения хранится отдельно и не публикуется здесь. Приложение не является официальным продуктом OpenAI.
+This repository contains **installers and documentation**. Application source code is maintained separately and is not published here. This app is not an official OpenAI product.
 
-## Что умеет
+## Features
 
-| Возможность | Что даёт |
+| Feature | What it adds |
 | --- | --- |
-| Лимиты перед глазами | Остаток лимита, время обновления и примерный расход запроса в одном месте |
-| Сбросы и прогнозы | Доступные сбросы с подтверждением и анонсы возможных сбросов Codex Resets |
-| Несколько чатов сразу | До пяти окон рядом или «Фокус»: один большой чат и карточки работающих и непрочитанных задач |
-| Собственный веб-доступ | Панель в локальном браузере, по сети или через свой HTTPS-домен |
-| Телефон и PWA | Доступ к чатам с телефона и установка панели на главный экран |
-| Уведомления по делу | Push о результатах, вопросах и разрешениях; видимые чаты в активном окне не отвлекают уведомлениями |
-| Темы на свой вкус | По 10 светлых и тёмных палитр, высокий контраст и свои цвета фона и акцента с живым предпросмотром |
+| Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
+| Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
+| Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
+| Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
+| Phone and PWA | Access chats from your phone and add the panel to your home screen |
+| Useful notifications | Push alerts for results, questions and approvals; visible chats in the foreground stay quiet |
+| Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
 
-## Где можно пользоваться
+## Ways to connect
 
-| Вариант | Как открыть |
+| Option | How to open it |
 | --- | --- |
-| На этом ПК | Приложение Codex Local или `http://127.0.0.1:4317` в браузере; порт можно изменить |
-| В своей сети | **Настройки → Подключение → Локальная сеть**: скопируйте адрес ПК и откройте его на другом устройстве |
-| Через интернет | Настройте HTTPS-домен и обратный прокси к панели, затем укажите адрес в **Настройки → Подключение → Через домен** |
-| Как приложение на телефоне | Откройте HTTPS-адрес в браузере и добавьте панель на главный экран; включите уведомления в настройках |
+| On this PC | Use the Codex Local app or open `http://127.0.0.1:4317` in a browser; the port is configurable |
+| On your network | Open **Settings → Connection → Local network**, copy the PC address and open it on another device |
+| Over the internet | Configure an HTTPS domain and reverse proxy to the panel, then enter the address in **Settings → Connection → Domain** |
+| As a phone app | Open the HTTPS address in a browser, add the panel to your home screen and enable notifications in settings |
 
-Это доступ к одной панели на вашем Windows-ПК: файлы и выполнение задач остаются на нём. Компьютер должен быть включён, а Codex Local — запущен, в том числе в трее. Домен, сертификат и внешнюю маршрутизацию нужно настроить отдельно; панель не создаёт их автоматически. Обычный веб-доступ по локальному IP работает без домена, а PWA и push на других устройствах требуют HTTPS и поддержки браузера.
+All devices connect to the same panel on your Windows PC: project files and task execution remain there. Keep the computer awake and Codex Local running, including in the tray. Set up the domain, certificate and external routing separately; the panel does not provision them automatically. Regular web access over a local IP works without a domain; PWA installation and push on other devices require HTTPS and browser support.
 
-Оценка расхода основана на доступных счётчиках Codex: при параллельной работе она может учитывать несколько задач. Прогнозы Codex Resets — объявления стороннего сервиса, а не гарантия сброса. Запросы, требующие подтверждения именно в Codex, открываются в его приложении на ПК.
+Usage estimates rely on the counters Codex provides and can include other tasks running in parallel. Codex Resets predictions come from a third-party announcement service and do not guarantee a reset. Requests that specifically require confirmation in Codex open in its desktop app.
 
-## Данные и доступ
+## Data and access
 
-Установщик не содержит чужих аккаунтов, переписки, файлов проектов или настроек подключения. Данные панели создаются на вашем ПК в `%LOCALAPPDATA%\CodexLocal`; авторизацией Codex управляет сам Codex. Панель обращается к GitHub за обновлениями и к Codex Resets за публичным расписанием сбросов. Запросы к моделям обрабатываются сервисами, к которым подключён ваш Codex.
+The installer contains no other user's accounts, conversations, project files or connection settings. Panel data is created on your PC under `%LOCALAPPDATA%\CodexLocal`; Codex manages its own authentication. The panel contacts GitHub for updates and Codex Resets for public reset announcements. Model requests are processed by the services your Codex connects to.
 
-Веб-доступ защищён локальным аккаунтом панели. Для телефона откройте **Настройки → Подключение**; для PWA с push-уведомлениями нужен настроенный HTTPS-доступ. Не публикуйте пароль панели или файлы авторизации.
+Web access is protected by the panel's local account. To connect a phone, open **Settings → Connection**. PWA push notifications require configured HTTPS access. Keep your panel password and authentication files private.
 
-## Обратная связь
+## Feedback
 
-Нашли ошибку? [Создайте issue](https://github.com/DenisG1302/codex-local/issues/new): укажите версию, ожидаемое поведение и шаги воспроизведения. Уберите со скриншотов личные данные. Не прикладывайте токены, папки сессий или полные журналы с приватной перепиской.
+[Open an issue](https://github.com/DenisG1302/codex-local/issues/new) with the app version, expected behavior and reproduction steps. Remove personal information from screenshots. Do not attach tokens, session directories or complete logs containing private conversations.
 
-Сведения о компонентах и их лицензиях включены в установку. Публичная доступность установщика не означает публикацию исходников приложения.
+Third-party component license notices are included with the installation. Public availability of the installer does not make the application source code public.
