@@ -25,10 +25,21 @@ The interface is available in English and Russian. Choose your language in **Set
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
+| Replies to messages | Reply to a selected message with its context above the composer, without copying the full original |
+| Forwarding between chats | Send one message or a whole conversation, including files and photos, to another project and chat |
+| Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
 | Notification preferences | Choose events, Windows and Web Push delivery, notification sounds, and message previews |
 | Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
+
+## Replies, forwarding and quick commands
+
+Open a message’s **⋯ menu** and choose **Write a reply**. The selected message appears above the composer; write and send your reply without copying the full original text.
+
+**Forward** sends the selected message and its attachments. **Share** at the top of the chat sends the whole conversation, including files and photos. Choose a project, then a new chat or one of the five most recent chats; load five more when needed. The destination chat opens after forwarding. If the source chat is still running, you can mark the message as sent to the wrong chat and automatically send a correction there.
+
+Quick commands are saved replies in the same message menu. Selecting one immediately sends it as a reply to that message. Use **Manage quick replies** to add your own phrases or remove any choice, including the built-in **This was not meant for you**.
 
 ## Screenshots
 
