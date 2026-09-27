@@ -12,7 +12,13 @@ Codex Local is an independent Windows app that connects to your installed Codex 
 
 This repository contains **installers and documentation**. Application source code is maintained separately and is not published here. This app is not an official OpenAI product.
 
+![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/workspace-light.png)
+
+<p align="center"><sub>Codex Local 0.8.6 · Actual interface with demo projects and conversations.</sub></p>
+
 ## Features
+
+The interface is available in English and Russian. Choose your language in **Settings → Appearance**.
 
 | Feature | What it adds |
 | --- | --- |
@@ -21,8 +27,39 @@ This repository contains **installers and documentation**. Application source co
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
-| Useful notifications | Push alerts for results, questions and approvals; visible chats in the foreground stay quiet |
+| Notification preferences | Choose events, Windows and Web Push delivery, notification sounds, and message previews |
 | Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
+
+## Screenshots
+
+### Keep several tasks in view
+
+Focus mode gives the current conversation more room while keeping running tasks and unread results alongside it.
+
+![Focus mode in the dark Polar theme with one large conversation and four task cards](assets/screenshots/focus-dark.png)
+
+### Open files beside the conversation
+
+Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat.
+
+![TypeScript component open in the file viewer beside its conversation](assets/screenshots/code-preview.png)
+
+### Make the workspace yours
+
+Pick separate light and dark palettes, then choose the events, delivery channels and message previews you want.
+
+| Appearance and language | Notification preferences |
+| --- | --- |
+| [![Appearance settings with English selected and light and dark color palettes](assets/screenshots/appearance.png)](assets/screenshots/appearance.png) | [![Notification settings with event filters, PC and Web Push channels, and message preview controls](assets/screenshots/notifications.png)](assets/screenshots/notifications.png) |
+
+### Take your chats with you
+
+The mobile layout keeps conversations, projects and usage limits within reach. Your Windows PC continues to run the tasks.
+
+<p align="center">
+  <a href="assets/screenshots/mobile-chat.png"><img src="assets/screenshots/mobile-chat.png" width="340" alt="Mobile conversation with a completed navigation review and the message composer"></a>
+  <a href="assets/screenshots/mobile-projects.png"><img src="assets/screenshots/mobile-projects.png" width="340" alt="Mobile project list with active tasks, usage limits and settings"></a>
+</p>
 
 ## Ways to connect
 
