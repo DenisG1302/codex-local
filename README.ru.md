@@ -12,9 +12,9 @@ Codex Local — независимое Windows-приложение для ра�
 
 Этот репозиторий содержит **готовые установщики и документацию**. Исходный код приложения хранится отдельно и не публикуется здесь. Приложение не является официальным продуктом OpenAI.
 
-![Рабочее пространство Codex Local: проекты, план запуска и оставшиеся лимиты](assets/screenshots/workspace-light.png)
+![Рабочее пространство Codex Local: проекты, план запуска и оставшиеся лимиты](assets/screenshots/ru/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.6 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
+<p align="center"><sub>Codex Local 0.8.7 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
 
 ## Что умеет
 
@@ -36,13 +36,13 @@ Codex Local — независимое Windows-приложение для ра�
 
 В режиме «Фокус» текущий разговор занимает большую область, а работающие задачи и непросмотренные результаты остаются рядом.
 
-![Режим «Фокус» в тёмной полярной палитре: большой чат и четыре карточки задач](assets/screenshots/focus-dark.png)
+![Режим «Фокус» в тёмной полярной палитре: большой чат и четыре карточки задач](assets/screenshots/ru/focus-dark.png)
 
 ### Файлы рядом с перепиской
 
 Читайте код с подсветкой синтаксиса и номерами строк, ищите по файлу и продолжайте работать в том же чате.
 
-![Компонент TypeScript открыт в панели просмотра файлов рядом с перепиской](assets/screenshots/code-preview.png)
+![Компонент TypeScript открыт в панели просмотра файлов рядом с перепиской](assets/screenshots/ru/code-preview.png)
 
 ### Оформление и уведомления под себя
 
@@ -50,15 +50,15 @@ Codex Local — независимое Windows-приложение для ра�
 
 | Оформление и язык | Настройки уведомлений |
 | --- | --- |
-| [![Настройки оформления: английский язык и палитры светлой и тёмной темы](assets/screenshots/appearance.png)](assets/screenshots/appearance.png) | [![Настройки уведомлений: события, Windows, Web Push и показ текста сообщения](assets/screenshots/notifications.png)](assets/screenshots/notifications.png) |
+| [![Настройки оформления: русский язык и палитры светлой и тёмной темы](assets/screenshots/ru/appearance.png)](assets/screenshots/ru/appearance.png) | [![Настройки уведомлений: события, Windows, Web Push и показ текста сообщения](assets/screenshots/ru/notifications.png)](assets/screenshots/ru/notifications.png) |
 
 ### Чаты всегда под рукой
 
 На телефоне доступны переписка, проекты и оставшиеся лимиты. Задачи продолжает выполнять ваш Windows-ПК.
 
 <p align="center">
-  <a href="assets/screenshots/mobile-chat.png"><img src="assets/screenshots/mobile-chat.png" width="340" alt="Мобильный чат с результатом проверки навигации и полем сообщения"></a>
-  <a href="assets/screenshots/mobile-projects.png"><img src="assets/screenshots/mobile-projects.png" width="340" alt="Список проектов на телефоне с работающими задачами, лимитами и настройками"></a>
+  <a href="assets/screenshots/ru/mobile-chat.png"><img src="assets/screenshots/ru/mobile-chat.png" width="340" alt="Мобильный чат с результатом проверки навигации и полем сообщения"></a>
+  <a href="assets/screenshots/ru/mobile-projects.png"><img src="assets/screenshots/ru/mobile-projects.png" width="340" alt="Список проектов на телефоне с работающими задачами, лимитами и настройками"></a>
 </p>
 
 ## Где можно пользоваться
