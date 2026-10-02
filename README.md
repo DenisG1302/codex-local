@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.7 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.29 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -25,23 +25,50 @@ The interface is available in English and Russian. Choose your language in **Set
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
-| Replies to messages | Reply to a selected message with its context above the composer, without copying the full original |
-| Forwarding between chats | Send one message or a whole conversation, including files and photos, to another project and chat |
+| Replies to messages | Reply to a message or selected passage with context above the composer; replies go first in a busy chat’s queue |
+| Forwarding between chats | Prepare a message with files and photos in another chat, add a comment and send when ready |
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
+| Rules with Codex | Edit global instructions or a project’s AGENTS.md; review the assistant’s proposed changes before applying them |
+| Model and fast mode | Choose a model and reasoning level; control the speed of the current task separately from the next message |
+| Message queue | Edit text, attachments and model settings for each waiting message, and rearrange their order |
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
 | Notification preferences | Choose events, Windows and Web Push delivery, notification sounds, and message previews |
 | Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
 
+## Rules with the Codex assistant
+
+Open **Settings → Instructions** to edit global rules or the selected project’s **AGENTS.md**. If the project has no rules file yet, create it from the same screen.
+
+The assistant can add, remove or edit a rule, organize the existing text, or follow your own **Custom** request. **Organize** also works without a description. Choose the assistant’s model and reasoning level separately from your chat settings, then review the proposed full text or line changes. You can edit the proposal, apply it with **Apply**, or decline it. Changes apply to new chats; existing chats may keep their previous instructions.
+
+## Model, fast mode and message queue
+
+The control beside the composer combines model, reasoning level and fast mode. The speed control beside the running status changes the current task separately, after confirmation. Fast mode is available for supported models and uses more of your allowance.
+
+Messages sent while a task is running wait in a queue. Rearrange them, edit their text and attachments, or choose a different model, reasoning level and speed for each one. **Steer** sends a waiting message into the current task using that task’s settings. The queue survives a restart and continues to work without an open window.
+
 ## Replies, forwarding and quick commands
 
-Open a message’s **⋯ menu** and choose **Write a reply**. The selected message appears above the composer; write and send your reply without copying the full original text.
+Open a message’s **⋯ menu** and choose **Write a reply**. The selected message appears above the composer; write your reply without copying the full original text. To reply to a specific passage, select it and press **Reply**. Your existing draft stays in place.
 
-**Forward** sends the selected message and its attachments. **Share** at the top of the chat sends the whole conversation, including files and photos. Choose a project, then a new chat or one of the five most recent chats; load five more when needed. The destination chat opens after forwarding. If the source chat is still running, you can mark the message as sent to the wrong chat and automatically send a correction there.
+**Forward** prepares the selected message with its files and photos in another chat. Choose a project, then a new chat or one of the five most recent chats; load five more when needed. A card appears above the destination composer: add a comment, keep it as a draft or cancel it. The message is sent only when you press **Send**. After sending, you can also notify the source chat that the original message was meant for another chat.
 
-Quick commands are saved replies in the same message menu. Selecting one immediately sends it as a reply to that message. Use **Manage quick replies** to add your own phrases or remove any choice, including the built-in **This was not meant for you**.
+Quick commands are saved replies in the same message menu. Use **Manage quick replies** to add your own phrases or remove any choice, including **This was not meant for you**. While a chat is busy, replies to messages or selected passages, including quick replies, go to the front of its queue and wait for the current task to finish.
 
 ## Screenshots
+
+### Review rule changes before applying them
+
+Choose the rules to edit, describe the change and compare the assistant’s proposal with the current text. Apply it when you are ready.
+
+![Project rules and the Codex assistant, with a proposed rule highlighted and Apply and Decline controls](assets/screenshots/en/instructions.png)
+
+### Plan the next messages
+
+Each queued message has its own model, reasoning level and speed. Edit a waiting message while the current task continues.
+
+![Message queue with different model settings and an open model, reasoning and fast-mode picker](assets/screenshots/en/queue-model.png)
 
 ### Keep several tasks in view
 
