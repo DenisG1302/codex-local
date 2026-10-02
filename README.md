@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.29 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.30 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -51,6 +51,8 @@ Messages sent while a task is running wait in a queue. Rearrange them, edit thei
 ## Replies, forwarding and quick commands
 
 Open a message’s **⋯ menu** and choose **Write a reply**. The selected message appears above the composer; write your reply without copying the full original text. To reply to a specific passage, select it and press **Reply**. Your existing draft stays in place.
+
+On phones, **Reply** appears in its own composer row below the text field, clear of the native selection menu. Tapping it scrolls the chat to the bottom and keeps the reply field and Send button above the keyboard. Tap outside the field to dismiss the keyboard and keep your draft.
 
 **Forward** prepares the selected message with its files and photos in another chat. Choose a project, then a new chat or one of the five most recent chats; load five more when needed. A card appears above the destination composer: add a comment, keep it as a draft or cancel it. The message is sent only when you press **Send**. After sending, you can also notify the source chat that the original message was meant for another chat.
 
@@ -98,6 +100,10 @@ The mobile layout keeps conversations, projects and usage limits within reach. Y
   <a href="assets/screenshots/en/mobile-chat.png"><img src="assets/screenshots/en/mobile-chat.png" width="340" alt="Mobile conversation with a completed navigation review and the message composer"></a>
   <a href="assets/screenshots/en/mobile-projects.png"><img src="assets/screenshots/en/mobile-projects.png" width="340" alt="Mobile project list with active tasks, usage limits and settings"></a>
 </p>
+
+Select a passage and press **Reply** in the composer. The button sits below the text field, separate from the native actions for selected text.
+
+<p align="center"><a href="assets/screenshots/en/mobile-reply.png"><img src="assets/screenshots/en/mobile-reply.png" width="340" alt="Selected passage in a mobile chat with a separate Reply button below the message field"></a></p>
 
 ## Ways to connect
 
