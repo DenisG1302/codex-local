@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Ваш Codex — на ПК, в браузере и на телефоне.</p>
   <p><strong>Windows x64 · локальная панель · веб-доступ и PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.md">English</a></p>
 </div>
 
 ---
@@ -14,7 +14,7 @@ Codex Local — независимое Windows-приложение для ра�
 
 ![Рабочее пространство Codex Local: проекты, план запуска и оставшиеся лимиты](assets/screenshots/ru/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.39 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
+<p align="center"><sub>Codex Local 0.8.40 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
 
 Названия проектов и чатов в боковой панели на ПК и телефоне отображаются шрифтом 14 px. Подписи и счётчики используют тот же масштаб. На ПК ширину панели можно менять перетаскиванием её правого края.
 
