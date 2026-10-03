@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.34 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.35 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -43,7 +43,7 @@ Open the window from the chat header. On Windows it stays above other apps and c
 
 The window shows the full latest progress message and a short status with a spinner: Thinking, Working on the task or Optimizing conversation. Commands and their output are hidden. When a task finishes, it displays **Work finished**; the **Open chat** icon beside Close is always available.
 
-In **Settings → Always-on-top window**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. Hover pauses automatic scrolling for manual reading; moving away resumes it. Set the theme color or a custom color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
+In **Settings → Always-on-top window**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. Hover pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
 
 | Progress window | Compact settings |
 | --- | --- |
