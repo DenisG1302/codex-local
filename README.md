@@ -14,7 +14,9 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.36 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.37 · Actual interface with demo projects and conversations.</sub></p>
+
+Project and chat names, counts and headings in the sidebar use larger text on desktop and phones. On desktop, drag the sidebar’s right edge to adjust its width.
 
 ## Features
 
@@ -39,11 +41,11 @@ The interface is available in English and Russian. Choose your language in **Set
 
 ## Always-on-top window
 
-Open the window from the chat header. On Windows it stays above other apps and can open automatically when Codex Local is minimized or in the background. Pin it to prevent accidental dragging. The arrow switches between active and unread chats; viewing the window does not mark answers as read.
+Open the window from the chat header. On Windows it stays above other apps and can open automatically when Codex Local is minimized or in the background. Pin it to prevent accidental dragging. A counter and switching arrow appear when multiple running or unread chats are available; viewing the window does not mark answers as read.
 
 The header shows the project name; the window shows the full latest progress message and a short status with a spinner: Thinking, Working on the task or Optimizing conversation. New fragments appear smoothly, with the blinking caret at the end of the text. Commands and their output are hidden. When a task finishes, it displays **Work finished**; the **Open chat** icon beside Close is always available.
 
-In **Settings → Always-on-top window**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Font size can be set from 10 to 32 px. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. Hover pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
+In **Settings → Always-on-top window**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Font size can be set from 10 to 32 px. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. It grows smoothly as lines appear and keeps its bottom edge fixed as the height changes. Hover pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
 
 | Progress window | Compact settings |
 | --- | --- |
