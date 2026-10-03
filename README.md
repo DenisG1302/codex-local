@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.32 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.33 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -25,6 +25,7 @@ The interface is available in English and Russian. Choose your language in **Set
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
+| Always-on-top window | Full latest progress and actions above your other apps, with pinning and active and unread chat switching |
 | Replies to messages | Reply to a message or selected passage with context above the composer; replies go first in a busy chat’s queue |
 | Forwarding between chats | Prepare a message with files and photos in another chat, add a comment and send when ready |
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
@@ -35,6 +36,18 @@ The interface is available in English and Russian. Choose your language in **Set
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
 | Notification preferences | Choose events, Windows and Web Push delivery, notification sounds, and message previews |
 | Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
+
+## Always-on-top window
+
+Open the window from the chat header. On Windows it stays above other apps and can open automatically when Codex Local is minimized or in the background. Pin it to prevent accidental dragging. The arrow switches between active and unread chats; viewing the window does not mark answers as read.
+
+The window shows the full latest progress message and current actions. When a task finishes, it displays **Work finished**; **Open chat** takes you to the full answer.
+
+In **Settings → Appearance**, choose a text style, window style, the theme color or your own color. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. Set the default size, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
+
+| Progress window | Compact settings |
+| --- | --- |
+| [![Always-on-top window with latest progress, actions, pinning and chat switching](assets/screenshots/en/overlay.png)](assets/screenshots/en/overlay.png) | [![Long-text modes, text and window styles, default size and automatic opening](assets/screenshots/en/overlay-settings.png)](assets/screenshots/en/overlay-settings.png) |
 
 ## Rules with the Codex assistant
 
