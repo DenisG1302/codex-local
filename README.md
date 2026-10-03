@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.ru.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -14,9 +14,9 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.38 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.39 · Actual interface with demo projects and conversations.</sub></p>
 
-Project and chat names, counts and headings in the sidebar use larger text on desktop and phones. On desktop, drag the sidebar’s right edge to adjust its width.
+Project and chat names in the sidebar use 14 px text on desktop and phones. Counts and headings use the same scale. On desktop, drag the sidebar’s right edge to adjust its width.
 
 ## Features
 
@@ -46,6 +46,8 @@ Open the window with the icon on the right of a running chat’s status and spee
 The header shows the project name; the window shows the full latest progress message and a short status with a spinner: Thinking, Working on the task or Optimizing conversation. New fragments appear smoothly, with the blinking caret at the end of the text. Commands and their output are hidden. When a task finishes, it displays **Work finished**; the **Open chat** icon beside Close is always available.
 
 In **Settings → Always-on-top window**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Font size can be set from 10 to 32 px. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. It grows smoothly as lines appear and keeps its bottom edge fixed as the height changes. The scrollbar appears only after reaching the screen limit; changing the default size remeasures existing text. Hover pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
+
+Emphasis, lists, code and links render with Markdown formatting. Question dialogs and option descriptions also support links; opening one does not submit an answer. Desktop notifications are suppressed while the working overlay is visible. Phone notifications follow their existing rules.
 
 | Progress window | Compact settings |
 | --- | --- |
