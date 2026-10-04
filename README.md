@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.44 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.45 · Actual interface with demo projects and conversations.</sub></p>
 
 Project and chat names in the sidebar use 14 px text on desktop and phones. Counts and headings use the same scale. On desktop, drag the sidebar’s right edge to adjust its width.
 
@@ -45,7 +45,7 @@ Open the window with the icon on the right of a running chat’s status and spee
 
 Corner positions meet the screen and Windows taskbar edges: top positions keep their top edge fixed and bottom positions keep their bottom edge fixed. The center stays centered. **Custom** positioning allows dragging and pinning; the pinned icon turns black without a background or border. Custom placement persists across chat switches and reopening. Monitor and resolution changes keep the window inside the available working area.
 
-During window growth the status row stays anchored to the lower edge. Matrix and Decoder show cycling symbols before letters gradually appear; streaming updates preserve already read text.
+During window growth the status row stays anchored to the lower edge. Matrix and Decoder briefly cycle symbols before letters quickly appear; streaming updates preserve already read text. When a task finishes, the overlay switches to its chat even if other tasks are still running. A new result can open the background overlay under the existing automatic display rules; viewing it does not mark the answer as read.
 
 The header shows the project name; the window shows the full latest progress message and a short status with a spinner: Thinking, Working on the task or Optimizing conversation. New fragments appear smoothly, with the blinking caret at the end of the text. Commands and their output are hidden. When a task finishes, it displays **Work finished**; the **Open chat** icon beside Close is always available.
 
