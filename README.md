@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.41 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.42 · Actual interface with demo projects and conversations.</sub></p>
 
 Project and chat names in the sidebar use 14 px text on desktop and phones. Counts and headings use the same scale. On desktop, drag the sidebar’s right edge to adjust its width.
 
@@ -41,11 +41,13 @@ The interface is available in English and Russian. Choose your language in **Set
 
 ## Overlay
 
-Open the window with the icon on the right of a running chat’s status and speed row. On Windows it stays above other apps and can open automatically when Codex Local is minimized or in the background. Pin it to prevent accidental dragging. The pinned icon turns black, with no background or border. A counter and switching arrow appear when multiple running or unread chats are available; viewing the window does not mark answers as read.
+Open the window with the icon on the right of a running chat’s status and speed row. On Windows it stays above other apps and can open automatically when Codex Local is covered, minimized or hidden in the tray. A visible chat beside another app or on another monitor keeps the automatic overlay hidden. A counter and switching arrow appear when multiple running or unread chats are available; viewing the window does not mark answers as read.
+
+Corner positions meet the screen and Windows taskbar edges: top positions keep their top edge fixed and bottom positions keep their bottom edge fixed. The center stays centered. **Custom** positioning allows dragging and pinning; the pinned icon turns black without a background or border. Custom placement persists across chat switches and reopening. Monitor and resolution changes keep the window inside the available working area.
 
 The header shows the project name; the window shows the full latest progress message and a short status with a spinner: Thinking, Working on the task or Optimizing conversation. New fragments appear smoothly, with the blinking caret at the end of the text. Commands and their output are hidden. When a task finishes, it displays **Work finished**; the **Open chat** icon beside Close is always available.
 
-In **Settings → Overlay**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Font size can be set from 10 to 32 px. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. It grows smoothly as lines appear and keeps its bottom edge fixed as the height changes. The scrollbar appears only after reaching the screen limit; changing the default size remeasures existing text. Hover pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
+In **Settings → Overlay**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Font size can be set from 10 to 32 px. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. It grows smoothly as lines appear and keeps the selected position anchored. The scrollbar appears only after reaching the screen limit; changing the default size remeasures existing text. Hover pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
 
 Emphasis, lists, code and links render with Markdown formatting. Question dialogs and option descriptions also support links; opening one does not submit an answer. Desktop notifications are suppressed while the working overlay is visible. Phone notifications follow their existing rules.
 
