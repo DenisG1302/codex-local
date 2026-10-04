@@ -14,13 +14,17 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.47 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.48 · Actual interface with demo projects and conversations.</sub></p>
 
 Project and chat names in the sidebar use 14 px text on desktop and phones. Counts and headings use the same scale. On desktop, drag the sidebar’s right edge to adjust its width.
 
 ## Features
 
 The interface is available in English and Russian. Choose your language in **Settings → Appearance**.
+
+Known Codex and OpenAI errors are localized to the interface language. An interrupted response shows its cause and reconnection attempt number. In the Russian interface, expandable details and tooltips also use Russian without showing the English original; unrecognized messages retain their original text. Conversations and tool output keep their original language.
+
+![Interrupted response with a reconnection attempt number and expandable diagnostics](assets/screenshots/en/error-reconnection.png)
 
 | Feature | What it adds |
 | --- | --- |
