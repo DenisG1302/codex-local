@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.45 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.46 · Actual interface with demo projects and conversations.</sub></p>
 
 Project and chat names in the sidebar use 14 px text on desktop and phones. Counts and headings use the same scale. On desktop, drag the sidebar’s right edge to adjust its width.
 
@@ -110,6 +110,8 @@ Read code with syntax highlighting and line numbers, search within a file, and s
 ### Make the workspace yours
 
 Pick separate light and dark palettes, then choose the events, delivery channels and message previews you want.
+
+The settings header, tabs and bottom buttons stay in place while the section's content scrolls. Save and Cancel remain accessible on phones and in short windows too.
 
 | Appearance and language | Notification preferences |
 | --- | --- |
