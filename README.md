@@ -16,23 +16,17 @@ This repository contains **installers and documentation**. Application source co
 
 <p align="center"><sub>Codex Local 0.8.48 · Actual interface with demo projects and conversations.</sub></p>
 
-Project and chat names in the sidebar use 14 px text on desktop and phones. Counts and headings use the same scale. On desktop, drag the sidebar’s right edge to adjust its width.
-
 ## Features
 
-The interface is available in English and Russian. Choose your language in **Settings → Appearance**.
-
-Known Codex and OpenAI errors are localized to the interface language. An interrupted response shows its cause and reconnection attempt number. In the Russian interface, expandable details and tooltips also use Russian without showing the English original; unrecognized messages retain their original text. Conversations and tool output keep their original language.
-
-![Interrupted response with a reconnection attempt number and expandable diagnostics](assets/screenshots/en/error-reconnection.png)
+The interface is available in English and Russian. Choose your language in Settings → Appearance.
 
 | Feature | What it adds |
 | --- | --- |
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
-| Overlay | Full latest progress and short statuses above your other apps, with pinning and active and unread chat switching |
-| Replies to messages | Reply to a message or selected passage with context above the composer; replies go first in a busy chat’s queue |
+| Overlay | Follow progress above other apps and switch between chats |
+| Replies to messages | Reply to a message or selected passage without copying the text |
 | Forwarding between chats | Prepare a message with files and photos in another chat, add a comment and send when ready |
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
 | Rules with Codex | Edit global instructions or a project’s AGENTS.md; review the assistant’s proposed changes before applying them |
@@ -45,19 +39,9 @@ Known Codex and OpenAI errors are localized to the interface language. An interr
 
 ## Overlay
 
-Open the window with the icon on the right of a running chat’s status and speed row. On Windows it stays above other apps and can open automatically when Codex Local is covered, minimized or hidden in the tray. A visible chat beside another app or on another monitor keeps the automatic overlay hidden. While you work in Codex Local, a small floating picture-in-picture video above the chat keeps the automatic overlay hidden, including when a task finishes. Transparent and helper windows used during dragging do not trigger it; Win+Shift+S preserves its visibility while selecting a screen capture. A counter and switching arrow appear when multiple running or unread chats are available; viewing the window does not mark answers as read.
+The overlay shows task progress above other apps. Open it from the chat’s status row or enable automatic opening when Codex Local is hidden or covered. Switch between running and unread chats, pin the window’s position or open the selected chat. Viewing the overlay does not mark answers as read.
 
-Corner positions meet the screen and Windows taskbar edges: top positions keep their top edge fixed and bottom positions keep their bottom edge fixed. The center stays centered. **Custom** positioning allows dragging and pinning; the pinned icon turns black without a background or border. Custom placement persists across chat switches and reopening. Monitor and resolution changes keep the window inside the available working area.
-
-During window growth the status row stays anchored to the lower edge. Matrix and Decoder briefly cycle symbols before letters quickly appear; streaming updates preserve already read text. When a task finishes, the overlay switches to its chat even if other tasks are still running. A new result can open the background overlay under the existing automatic display rules; viewing it does not mark the answer as read.
-
-The header shows the project name; the window shows the full latest progress message and a short status with a spinner: Thinking, Working on the task or Optimizing conversation. New fragments appear smoothly, with the blinking caret at the end of the text. Commands and their output are hidden. When a task finishes, it displays **Work finished**; the **Open chat** icon beside Close is always available.
-
-On Windows the overlay passes hover, clicks and the mouse wheel through to the app underneath. To use its buttons, links, scrolling or dragging, select **Codex Local — Overlay** with **Alt+Tab**. Switching back to another app restores mouse passthrough and resumes automatic scrolling.
-
-In **Settings → Overlay**, choose text and window styles from visual cards. **Test overlay** opens a real window using your draft size and appearance; **Default** restores the width and height to 400 × 260. Font size can be set from 10 to 32 px. Long text can scroll manually, scroll automatically from top to bottom in a loop, or grow the window within the screen. It grows smoothly as lines appear and keeps the selected position anchored. The scrollbar appears only after reaching the screen limit; changing the default size remeasures existing text. Hovering over the active overlay pauses automatic scrolling for manual reading; moving away resumes it. The color picker appears directly inside the Custom color card. Set the theme color, position, opacity and automatic opening there too. Disabling the feature hides the chat button and detailed settings. Supported browsers offer manual opening with Picture-in-Picture.
-
-Emphasis, lists, code and links render with Markdown formatting. Each table in the overlay is replaced with a bold **TABLE** label on a single line; surrounding text and links are preserved. Question dialogs and option descriptions also support links; opening one does not submit an answer. Desktop notifications are suppressed while the working overlay is visible. Phone notifications follow their existing rules.
+In Settings → Overlay, choose the appearance, size, position and opacity; Test overlay previews your choices before saving. Long text can scroll or expand the window. On Windows, mouse input passes through the window; select it with Alt+Tab to use its controls.
 
 | Progress window | Compact settings |
 | --- | --- |
@@ -65,25 +49,21 @@ Emphasis, lists, code and links render with Markdown formatting. Each table in t
 
 ## Rules with the Codex assistant
 
-Open **Settings → Instructions** to edit global rules or the selected project’s **AGENTS.md**. If the project has no rules file yet, create it from the same screen.
-
-The assistant can add, remove or edit a rule, organize the existing text, or follow your own **Custom** request. **Organize** also works without a description. Choose the assistant’s model and reasoning level separately from your chat settings, then review the proposed full text or line changes. You can edit the proposal, apply it with **Apply**, or decline it. Changes apply to new chats; existing chats may keep their previous instructions.
+In Settings → Instructions, edit global rules or a project’s AGENTS.md. The Codex assistant changes and organizes rules at your request. Review the proposed changes and select Apply. New rules take effect in new chats.
 
 ## Model, fast mode and message queue
 
-The control beside the composer combines model, reasoning level and fast mode. The speed control beside the running status changes the current task separately, after confirmation. Fast mode is available for supported models and uses more of your allowance.
+The control beside the composer sets the model, reasoning level and fast mode for the next message. Change the current task’s speed beside its status. Fast mode is available for supported models and uses more of your allowance.
 
-Messages sent while a task is running wait in a queue. Rearrange them, edit their text and attachments, or choose a different model, reasoning level and speed for each one. **Steer** sends a waiting message into the current task using that task’s settings. The queue survives a restart and continues to work without an open window.
+Messages sent during a task wait in a queue. Change their order, text, attachments and settings; Steer sends a message into the current task. The queue survives a restart and works without an open window.
 
 ## Replies, forwarding and quick commands
 
-Open a message’s **⋯ menu** and choose **Write a reply**. The selected message appears above the composer; write your reply without copying the full original text. To reply to a specific passage, select it and press **Reply**. Your existing draft stays in place.
+Choose Write a reply from a message’s ⋯ menu, or select a passage and press Reply. The quote appears above the composer so you can answer with context.
 
-On phones, **Reply** appears on the right, aligned with the message field's first line and separate from the native selection menu. Tapping it scrolls the chat to the bottom and keeps the reply field and Send button above the keyboard. Tap outside the field to dismiss the keyboard and keep your draft. Cancelling a reply dismisses the keyboard only when the field is empty; if text is already written, editing stays active.
+Forward prepares a message with its attachments in another chat. Choose the chat, add a comment if needed and press Send.
 
-**Forward** prepares the selected message with its files and photos in another chat. Choose a project, then a new chat or one of the five most recent chats; load five more when needed. A card appears above the destination composer: add a comment, keep it as a draft or cancel it. The message is sent only when you press **Send**. After sending, you can also notify the source chat that the original message was meant for another chat.
-
-Quick commands are saved replies in the same message menu. Use **Manage quick replies** to add your own phrases or remove any choice, including **This was not meant for you**. While a chat is busy, replies to messages or selected passages, including quick replies, go to the front of its queue and wait for the current task to finish.
+Quick commands send saved replies with one click. Add your own phrases through Manage quick replies. Replies go first in a busy chat’s queue.
 
 ## Screenshots
 
@@ -115,8 +95,6 @@ Read code with syntax highlighting and line numbers, search within a file, and s
 
 Pick separate light and dark palettes, then choose the events, delivery channels and message previews you want.
 
-The settings header, tabs and bottom buttons stay in place while the section's content scrolls. Save and Cancel remain accessible on phones and in short windows too.
-
 | Appearance and language | Notification preferences |
 | --- | --- |
 | [![Appearance settings with English selected and light and dark color palettes](assets/screenshots/en/appearance.png)](assets/screenshots/en/appearance.png) | [![Notification settings with event filters, PC and Web Push channels, and message preview controls](assets/screenshots/en/notifications.png)](assets/screenshots/en/notifications.png) |
@@ -130,7 +108,7 @@ The mobile layout keeps conversations, projects and usage limits within reach. Y
   <a href="assets/screenshots/en/mobile-projects.png"><img src="assets/screenshots/en/mobile-projects.png" width="340" alt="Mobile project list with active tasks, usage limits and settings"></a>
 </p>
 
-Select a passage and press **Reply** in the composer. The button sits on the right, aligned with the message field's first line and separate from the native actions for selected text.
+To reply to a passage, select the text and press Reply.
 
 <p align="center"><a href="assets/screenshots/en/mobile-reply.png"><img src="assets/screenshots/en/mobile-reply.png" width="340" alt="Selected passage in a mobile chat with Reply on the right, aligned with the message field's first line"></a></p>
 
