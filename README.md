@@ -65,33 +65,31 @@ Forward prepares a message with its attachments in another chat. Choose the chat
 
 Quick commands send saved replies with one click. Add your own phrases through Manage quick replies. Replies go first in a busy chat’s queue.
 
-## Screenshots
-
-### Review rule changes before applying them
+## Review rule changes before applying them
 
 Choose the rules to edit, describe the change and compare the assistant’s proposal with the current text. Apply it when you are ready.
 
 ![Project rules and the Codex assistant, with a proposed rule highlighted and Apply and Decline controls](assets/screenshots/en/instructions.png)
 
-### Plan the next messages
+## Plan the next messages
 
 Each queued message has its own model, reasoning level and speed. Edit a waiting message while the current task continues.
 
 ![Message queue with different model settings and an open model, reasoning and fast-mode picker](assets/screenshots/en/queue-model.png)
 
-### Keep several tasks in view
+## Keep several tasks in view
 
 Focus mode gives the current conversation more room while keeping running tasks and unread results alongside it.
 
 ![Focus mode in the dark Polar theme with one large conversation and four task cards](assets/screenshots/en/focus-dark.png)
 
-### Open files beside the conversation
+## Open files beside the conversation
 
 Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat.
 
 ![TypeScript component open in the file viewer beside its conversation](assets/screenshots/en/code-preview.png)
 
-### Make the workspace yours
+## Make the workspace yours
 
 Pick separate light and dark palettes, then choose the events, delivery channels and message previews you want.
 
@@ -99,7 +97,7 @@ Pick separate light and dark palettes, then choose the events, delivery channels
 | --- | --- |
 | [![Appearance settings with English selected and light and dark color palettes](assets/screenshots/en/appearance.png)](assets/screenshots/en/appearance.png) | [![Notification settings with event filters, PC and Web Push channels, and message preview controls](assets/screenshots/en/notifications.png)](assets/screenshots/en/notifications.png) |
 
-### Take your chats with you
+## Take your chats with you
 
 The mobile layout keeps conversations, projects and usage limits within reach. Your Windows PC continues to run the tasks.
 
