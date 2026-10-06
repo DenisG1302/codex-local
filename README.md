@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.49 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.52 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -22,6 +22,7 @@ The interface is available in English and Russian. Choose your language in Setti
 
 | Feature | What it adds |
 | --- | --- |
+| Projects and pinned chats | Pinning in the main list or within a project; all project pins and two regular chats when expanded |
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
@@ -37,11 +38,15 @@ The interface is available in English and Russian. Choose your language in Setti
 | Notification preferences | Choose events, Windows and Web Push delivery, notification sounds, and message previews |
 | Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
 
+In the “Pin chat” menu, choose “Within project” or “In the main list”. Project pins are saved only in Codex Local and do not sync with Codex.
+
+[![Project pins, two regular chats and the choice of where to pin a chat](assets/screenshots/en/project-pins.png)](assets/screenshots/en/project-pins.png)
+
 ## Overlay
 
 The overlay shows task progress above other apps and tells you when an answer or approval is needed. Open it from the chat’s status row or enable automatic opening when Codex Local is hidden or covered. Switch between running and unread chats, pin the window’s position or open the selected chat. Viewing the overlay does not mark answers as read.
 
-In Settings → Overlay, choose the appearance, size, position and opacity; Test overlay previews your choices before saving. Long text can scroll or expand the window. On Windows, mouse input passes through the window; select it with Alt+Tab to use its controls.
+In Settings → Overlay, choose the appearance, size, position and opacity; Test overlay previews your choices before saving. Long text can scroll or expand the window. On Windows, select the overlay with Alt+Tab or enable “Use controls without Alt+Tab” to keep mouse controls available.
 
 | Progress window | Compact settings |
 | --- | --- |
