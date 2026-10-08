@@ -14,7 +14,7 @@ Codex Local — независимое Windows-приложение для ра�
 
 ![Рабочее пространство Codex Local: проекты, план запуска и оставшиеся лимиты](assets/screenshots/ru/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.58 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
+<p align="center"><sub>Codex Local 0.8.59 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
 
 ## Что умеет
 
