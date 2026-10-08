@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.55 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.56 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -60,7 +60,7 @@ In Settings → Instructions, edit global rules or a project’s AGENTS.md. The 
 
 The control beside the composer sets the model, reasoning level and fast mode for the next message. Change the current task’s speed beside its status. Fast mode is available for supported models and uses more of your allowance.
 
-Messages sent during a task wait in a queue. Change their order, text, attachments and settings; Steer sends a message into the current task. The queue survives a restart and works without an open window.
+Messages sent during a task wait in a queue. Change their order, text, attachments and settings; Steer sends a message into the current task. The queue survives a restart and works without an open window. If a separate Codex process owns the chat, sending waits until it releases the chat.
 
 ## Replies, forwarding and quick commands
 
