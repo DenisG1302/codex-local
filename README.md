@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.62 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.63 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -70,9 +70,11 @@ Forward prepares a message with its attachments in another chat. Choose the chat
 
 Quick commands send saved replies with one click. Add your own phrases through Manage quick replies. Replies go first in a busy chat’s queue.
 
-In the Windows app, a clipboard photo appears as a thumbnail in the selected chat, including split layouts; Insert attaches it to the draft.
+In the Windows app, a clipboard photo appears as a thumbnail above the active chat's composer, even before its first message. Insert attaches it to the draft; hide the thumbnail in Settings → Appearance.
 
-![Clipboard photo thumbnail and Insert button in the selected chat](assets/screenshots/en/clipboard-split.png)
+![Clipboard photo thumbnail and Insert button in a new chat](assets/screenshots/en/clipboard-new-chat.png)
+
+![Clipboard photo thumbnail switch in Appearance settings](assets/screenshots/en/clipboard-setting.png)
 
 ## Review rule changes before applying them
 
