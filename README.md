@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.60 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.61 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -31,7 +31,7 @@ The interface is available in English and Russian. Choose your language in Setti
 | Forwarding between chats | Prepare a message with files and photos in another chat, add a comment and send when ready |
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
 | Rules with Codex | Edit global instructions or a project’s AGENTS.md; review the assistant’s proposed changes before applying them |
-| Model and fast mode | Choose a model and reasoning level; control the speed of the current task separately from the next message |
+| Model and speed | Choose a model, reasoning level and available speed, including Ultrafast; change the current task's speed |
 | Message queue | Edit text, attachments and model settings for each waiting message, and rearrange their order |
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
@@ -58,7 +58,7 @@ In Settings → Instructions, edit global rules or a project’s AGENTS.md. The 
 
 ## Model, fast mode and message queue
 
-The control beside the composer sets the model, reasoning level and fast mode for the next message. Change the current task’s speed beside its status. Fast mode is available for supported models and uses more of your allowance.
+The control beside the composer sets the model, reasoning level and speed for the next message, including Ultrafast when available. Change the current task’s speed beside its status; faster modes use more credits. If a selected model disappears, the panel switches to the strongest available model.
 
 Messages sent during a task wait in a queue. Change their order, text, attachments and settings; Steer sends a message into the current task. The queue survives a restart and works without an open window. If a separate Codex process owns the chat, sending waits until it releases the chat.
 
@@ -69,6 +69,8 @@ Choose Write a reply from a message’s ⋯ menu, or select a passage and press 
 Forward prepares a message with its attachments in another chat. Choose the chat, add a comment if needed and press Send.
 
 Quick commands send saved replies with one click. Add your own phrases through Manage quick replies. Replies go first in a busy chat’s queue.
+
+In the Windows app, a clipboard photo appears as a thumbnail in the selected chat; Insert attaches it to the draft.
 
 ## Review rule changes before applying them
 
@@ -90,9 +92,11 @@ Focus mode gives the current conversation more room while keeping running tasks 
 
 ## Open files beside the conversation
 
-Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat.
+Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat. The file menu shows the full path; click it to copy.
 
 ![TypeScript component open in the file viewer beside its conversation](assets/screenshots/en/code-preview.png)
+
+![File menu showing the full path to copy](assets/screenshots/en/file-path-menu.png)
 
 ## Make the workspace yours
 
