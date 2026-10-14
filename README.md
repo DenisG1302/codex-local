@@ -14,7 +14,7 @@ This repository contains **installers and documentation**. Application source co
 
 ![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.68 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.69 · Actual interface with demo projects and conversations.</sub></p>
 
 ## Features
 
@@ -23,6 +23,7 @@ The interface is available in English and Russian. Choose your language in Setti
 | Feature | What it adds |
 | --- | --- |
 | Projects and pinned chats | Pinning in the main list or within a project; all project pins and two regular chats when expanded |
+| Chat search | Search by text or description; “By meaning” finds and opens the matching chat |
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
@@ -41,6 +42,10 @@ The interface is available in English and Russian. Choose your language in Setti
 In the “Pin chat” menu, choose “Within project” or “In the main list”. Project pins are saved only in Codex Local and do not sync with Codex.
 
 [![Project pins, two regular chats and the choice of where to pin a chat](assets/screenshots/en/project-pins.png)](assets/screenshots/en/project-pins.png)
+
+Open search with Ctrl+K, select “By meaning” and describe the chat. The model is selected automatically; the search chat is never saved in history. If several chats match, choose one from the list.
+
+![Search by description with project filtering and matching chats](assets/screenshots/en/chat-search.png)
 
 ## Overlay
 
