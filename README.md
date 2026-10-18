@@ -1,154 +1,158 @@
 <div align="center">
   <img src="assets/logo.png" width="80" height="80" alt="Codex Local">
   <h1>Codex Local</h1>
-  <p>Your Codex — on your PC, in a browser and on your phone.</p>
-  <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.ru.md">Русский</a></p>
+  <p>Ваш Codex — на ПК, в браузере и на телефоне.</p>
+  <p><strong>Windows x64 · локальная панель · веб-доступ и PWA</strong></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
 </div>
 
 ---
 
-Codex Local is an independent Windows app that connects to your installed Codex through App Server. Organize chats by project, run several tasks at once and access your workspace in the desktop app, a local browser or another device.
+Codex Local — независимое Windows-приложение для работы с установленным Codex через App Server. Собирайте чаты по проектам, ведите несколько задач одновременно и открывайте своё рабочее пространство в приложении, локальном браузере или с другого устройства.
 
-This repository contains **installers and documentation**. Application source code is maintained separately and is not published here. This app is not an official OpenAI product.
+Этот репозиторий содержит **готовые установщики и документацию**. Исходный код приложения хранится отдельно и не публикуется здесь. Приложение не является официальным продуктом OpenAI.
 
-![Codex Local desktop workspace with projects, a launch checklist and usage limits](assets/screenshots/en/workspace-light.png)
+![Рабочее пространство Codex Local: проекты, план запуска и оставшиеся лимиты](assets/screenshots/ru/workspace-light.png)
 
-<p align="center"><sub>Codex Local 0.8.74 · Actual interface with demo projects and conversations.</sub></p>
+<p align="center"><sub>Codex Local 0.8.76 · Настоящий интерфейс с демонстрационными проектами и перепиской.</sub></p>
 
-## Features
+## Что умеет
 
-The interface is available in English and Russian. Choose your language in Settings → Appearance.
+Интерфейс доступен на английском и русском. Язык можно выбрать в «Настройки → Оформление».
 
-| Feature | What it adds |
+| Возможность | Что даёт |
 | --- | --- |
-| Projects and pinned chats | Pinning in the main list or within a project; all project pins and two regular chats when expanded |
-| Chat search | Search by text or description; “By meaning” finds and opens the matching chat |
-| Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
-| Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
-| Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
-| Overlay | Follow progress above other apps and switch between chats |
-| Replies to messages | Reply to a message or selected passage without copying the text |
-| Forwarding between chats | Prepare a message with files and photos in another chat, add a comment and send when ready |
-| Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
-| Rules with Codex | Edit global instructions or a project’s AGENTS.md; review the assistant’s proposed changes before applying them |
-| Model and speed | Choose a model, reasoning level and available speed, including Ultrafast; change the current task's speed |
-| Message queue | Edit text, attachments and model settings for each waiting message, and rearrange their order |
-| Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
-| Phone and PWA | Access chats from your phone and add the panel to your home screen |
-| Notification preferences | Choose events, Windows and Web Push delivery, notification sounds, and message previews |
-| Themes that fit you | Ten light and ten dark palettes, high contrast, and custom background and accent colors with live previews |
+| Проекты и закреплённые чаты | Закрепление в общем списке или внутри проекта; все закрепы проекта и два обычных чата при раскрытии |
+| Поиск чатов | По тексту или по описанию; «По смыслу» находит и открывает нужный чат |
+| Лимиты перед глазами | Остаток лимита, время обновления и примерный расход запроса в одном месте |
+| Сбросы и прогнозы | Доступные сбросы с подтверждением и анонсы возможных сбросов Codex Resets |
+| Несколько чатов сразу | До пяти окон рядом или «Фокус»: один большой чат и карточки работающих и непрочитанных задач |
+| Оверлей | Ход работы поверх других приложений и переключение между чатами |
+| Ответы на сообщения | Ответ на сообщение или выделенный фрагмент без копирования текста |
+| Пересылка между чатами | Подготовка сообщения с файлами и фотографиями в другом чате, комментарий и отправка по кнопке |
+| Быстрые команды | Готовые ответы одним нажатием: добавляйте свои варианты и удаляйте ненужные |
+| Правила с помощником Codex | Глобальные инструкции или AGENTS.md проекта; просмотр предложенных изменений перед применением |
+| Модель и ускорение | Выбор модели, рассуждения и доступной скорости, включая Ultrafast; смена скорости текущей задачи |
+| Очередь сообщений | Редактирование текста, вложений и настроек каждого ожидающего сообщения, изменение порядка |
+| Собственный веб-доступ | Панель в локальном браузере, по сети или через свой HTTPS-домен |
+| Телефон и PWA | Доступ к чатам с телефона и установка панели на главный экран |
+| Настраиваемые уведомления | Выбор событий, доставки через Windows и Web Push, звука уведомлений и показа текста сообщения |
+| Темы на свой вкус | По 10 светлых и тёмных палитр, высокий контраст и свои цвета фона и акцента с живым предпросмотром |
 
-In the “Pin chat” menu, choose “Within project” or “In the main list”. Project pins are saved only in Codex Local and do not sync with Codex.
+Проекты и чаты переносятся независимо от даты создания. Чтобы изменения из Codex Local появились в Codex, полностью закройте Codex, дождитесь подтверждения синхронизации в «Настройки → Подключение» Codex Local и откройте Codex снова.
 
-[![Project pins, two regular chats and the choice of where to pin a chat](assets/screenshots/en/project-pins.png)](assets/screenshots/en/project-pins.png)
+Для Computer Use держите официальное приложение Codex запущенным с включённым плагином Computer Use.
 
-Open search with Ctrl+K, select “By meaning” and describe the chat. The model is selected automatically; the search chat is never saved in history. If several chats match, choose one from the list.
+В меню «Закрепить чат» выберите «Внутри проекта» или «В общем списке». Закрепы внутри проекта сохраняются только в Codex Local и не синхронизируются с Codex.
 
-![Search by description with project filtering and matching chats](assets/screenshots/en/chat-search.png)
+[![Закреплённые внутри проекта чаты, два обычных чата и выбор способа закрепления](assets/screenshots/ru/project-pins.png)](assets/screenshots/ru/project-pins.png)
 
-## Overlay
+Откройте поиск через Ctrl+K, нажмите «По смыслу» и опишите нужный чат. Модель выбирается автоматически; поисковый чат не сохраняется в истории. Если подходят несколько чатов, выберите нужный из списка.
 
-The overlay shows task progress above other apps and tells you when an answer or approval is needed. Open it from the chat’s status row or enable automatic opening when Codex Local is hidden or covered. Switch between running and unread chats, pin the window’s position or open the selected chat. Viewing the overlay does not mark answers as read.
+![Поиск по описанию с выбором проекта и подходящих чатов](assets/screenshots/ru/chat-search.png)
 
-In Settings → Overlay, choose the appearance, size, position and opacity; Test overlay previews your choices before saving. Long text can scroll or expand the window. On Windows, select the overlay with Alt+Tab or enable “Use controls without Alt+Tab” to keep mouse controls available.
+## Оверлей
 
-| Progress window | Compact settings |
+Оверлей показывает ход работы поверх других приложений и сообщает, когда нужен ответ или разрешение. Откройте его значком в строке статуса чата или включите автопоказ, когда окно Codex Local скрыто или перекрыто. Можно переключать работающие и непрочитанные чаты, закреплять положение окна и открывать нужный чат. Просмотр оверлея не отмечает ответы прочитанными.
+
+В «Настройки → Оверлей» выбираются оформление, размер, положение и прозрачность; «Тестовый оверлей» показывает результат до сохранения. Длинный текст можно прокручивать или включить рост окна. В Windows можно управлять окном через Alt+Tab или включить «Управлять без Alt+Tab» для постоянной работы мыши и кнопок.
+
+| Окно с ходом работы | Компактные настройки |
 | --- | --- |
-| [![Always-on-top window with latest progress, status, pinning and chat switching](assets/screenshots/en/overlay.png)](assets/screenshots/en/overlay.png) | [![Dedicated overlay tab with visual style cards and a real test window](assets/screenshots/en/overlay-settings.png)](assets/screenshots/en/overlay-settings.png) |
+| [![Окно поверх всех с последним текстом, статусом, закреплением и переключением чатов](assets/screenshots/ru/overlay.png)](assets/screenshots/ru/overlay.png) | [![Отдельная вкладка оверлея с карточками оформления и тестовым окном](assets/screenshots/ru/overlay-settings.png)](assets/screenshots/ru/overlay-settings.png) |
 
-## Rules with the Codex assistant
+## Правила с помощником Codex
 
-In Settings → Instructions, edit global rules or a project’s AGENTS.md. The Codex assistant changes and organizes rules at your request. Review the proposed changes and select Apply. New rules take effect in new chats.
+В «Настройки → Инструкции» редактируйте глобальные правила или AGENTS.md проекта. Помощник Codex меняет и упорядочивает правила по вашему запросу. Проверьте предложенные изменения и нажмите «Применить». Новые правила действуют в новых чатах.
 
-## Model, fast mode and message queue
+## Модель, ускорение и очередь сообщений
 
-The control beside the composer sets the model, reasoning level and speed for the next message, including Ultrafast when available. Change the current task’s speed beside its status; faster modes use more credits. If a selected model disappears, the panel switches to the strongest available model.
+Кнопка у поля ввода задаёт модель, уровень рассуждения и скорость следующего сообщения, включая Ultrafast, если он доступен. Скорость текущей задачи меняется рядом со статусом; ускорение расходует больше лимита. Если выбранная модель исчезнет, панель переключится на самую сильную доступную.
 
-Messages sent during a task wait in a queue. Change their order, text, attachments and settings; Steer sends a message into the current task. The queue survives a restart and works without an open window. If a separate Codex process owns the chat, sending waits until it releases the chat.
+Сообщения во время работы ждут в очереди. Меняйте их порядок, текст, вложения и настройки; «Скорректировать» передаёт сообщение в текущую задачу. Очередь сохраняется после перезапуска и работает без открытого окна. Если чат занят отдельным процессом Codex, отправка ждёт, пока он освободит чат.
 
-## Replies, forwarding and quick commands
+## Ответы, пересылка и быстрые команды
 
-Choose Write a reply from a message’s ⋯ menu, or select a passage and press Reply. The quote appears above the composer so you can answer with context.
+В меню «⋯» выберите «Ответить своим текстом» или выделите фрагмент и нажмите «Ответить». Цитата появится над полем ввода, чтобы ответить с контекстом.
 
-Forward prepares a message with its attachments in another chat. Choose the chat, add a comment if needed and press Send.
+«Переслать» подготавливает сообщение с вложениями в другом чате. Выберите чат, при необходимости добавьте комментарий и отправьте сообщение.
 
-Quick commands send saved replies with one click. Add your own phrases through Manage quick replies. Replies go first in a busy chat’s queue.
+Быстрые команды отправляют готовые ответы одним нажатием. Добавляйте свои фразы через «Настроить готовые ответы». В занятом чате ответы идут первыми в очереди.
 
-In the Windows app, a clipboard photo appears as a thumbnail above the active chat's composer, even before its first message. Insert attaches it to the draft; hide the thumbnail in Settings → Appearance.
+В приложении Windows фото из буфера показывается миниатюрой над полем ввода активного чата, даже до первого сообщения. «Вставить» прикрепляет его к черновику; миниатюру можно скрыть в «Настройки → Оформление».
 
-![Clipboard photo thumbnail and Insert button in a new chat](assets/screenshots/en/clipboard-new-chat.png)
+![Миниатюра фото из буфера и кнопка «Вставить» в новом чате](assets/screenshots/ru/clipboard-new-chat.png)
 
-![Clipboard photo thumbnail switch in Appearance settings](assets/screenshots/en/clipboard-setting.png)
+![Переключатель миниатюры фото из буфера в настройках оформления](assets/screenshots/ru/clipboard-setting.png)
 
-## Review rule changes before applying them
+## Проверяйте изменения правил перед применением
 
-Choose the rules to edit, describe the change and compare the assistant’s proposal with the current text. Apply it when you are ready.
+Выберите нужные инструкции, опишите изменение и сравните предложение помощника с текущим текстом. Примените его, когда результат вас устроит.
 
-![Project rules and the Codex assistant, with a proposed rule highlighted and Apply and Decline controls](assets/screenshots/en/instructions.png)
+![Правила проекта и помощник Codex: предложенное правило выделено в изменениях, доступны кнопки «Применить» и «Отклонить»](assets/screenshots/ru/instructions.png)
 
-## Plan the next messages
+## Планируйте следующие сообщения
 
-Each queued message has its own model, reasoning level and speed. Edit a waiting message while the current task continues.
+У каждого сообщения в очереди свои модель, рассуждение и скорость. Его можно редактировать, пока текущая задача продолжает работу.
 
-![Message queue with different model settings and an open model, reasoning and fast-mode picker](assets/screenshots/en/queue-model.png)
+![Очередь сообщений с разными настройками и открытым выбором модели, рассуждения и ускорения](assets/screenshots/ru/queue-model.png)
 
-## Keep several tasks in view
+## Несколько задач перед глазами
 
-Focus mode gives the current conversation more room while keeping running tasks and unread results alongside it.
+В режиме «Фокус» текущий разговор занимает большую область, а работающие задачи и непросмотренные результаты остаются рядом.
 
-![Focus mode in the dark Polar theme with one large conversation and four task cards](assets/screenshots/en/focus-dark.png)
+![Режим «Фокус» в тёмной полярной палитре: большой чат и четыре карточки задач](assets/screenshots/ru/focus-dark.png)
 
-## Open files beside the conversation
+## Файлы рядом с перепиской
 
-Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat. The file menu shows the full path; click it to copy.
+Читайте код с подсветкой синтаксиса и номерами строк, ищите по файлу и продолжайте работать в том же чате. В меню файла виден полный путь; нажатие копирует его.
 
-![TypeScript component open in the file viewer beside its conversation](assets/screenshots/en/code-preview.png)
+![Компонент TypeScript открыт в панели просмотра файлов рядом с перепиской](assets/screenshots/ru/code-preview.png)
 
-![File menu showing the full path to copy](assets/screenshots/en/file-path-menu.png)
+![Меню файла с полным путём для копирования](assets/screenshots/ru/file-path-menu.png)
 
-## Make the workspace yours
+## Оформление и уведомления под себя
 
-Pick separate light and dark palettes, then choose the events, delivery channels and message previews you want.
+Выберите отдельные палитры для светлой и тёмной темы, нужные события и каналы уведомлений, а также показ текста сообщения.
 
-| Appearance and language | Notification preferences |
+| Оформление и язык | Настройки уведомлений |
 | --- | --- |
-| [![Appearance settings with English selected and light and dark color palettes](assets/screenshots/en/appearance.png)](assets/screenshots/en/appearance.png) | [![Notification settings with event filters, PC and Web Push channels, and message preview controls](assets/screenshots/en/notifications.png)](assets/screenshots/en/notifications.png) |
+| [![Настройки оформления: русский язык и палитры светлой и тёмной темы](assets/screenshots/ru/appearance.png)](assets/screenshots/ru/appearance.png) | [![Настройки уведомлений: события, Windows, Web Push и показ текста сообщения](assets/screenshots/ru/notifications.png)](assets/screenshots/ru/notifications.png) |
 
-## Take your chats with you
+## Чаты всегда под рукой
 
-The mobile layout keeps conversations, projects and usage limits within reach. Your Windows PC continues to run the tasks.
+На телефоне доступны переписка, проекты и оставшиеся лимиты. Задачи продолжает выполнять ваш Windows-ПК.
 
 <p align="center">
-  <a href="assets/screenshots/en/mobile-chat.png"><img src="assets/screenshots/en/mobile-chat.png" width="340" alt="Mobile conversation with a completed navigation review and the message composer"></a>
-  <a href="assets/screenshots/en/mobile-projects.png"><img src="assets/screenshots/en/mobile-projects.png" width="340" alt="Mobile project list with active tasks, usage limits and settings"></a>
+  <a href="assets/screenshots/ru/mobile-chat.png"><img src="assets/screenshots/ru/mobile-chat.png" width="340" alt="Мобильный чат с результатом проверки навигации и полем сообщения"></a>
+  <a href="assets/screenshots/ru/mobile-projects.png"><img src="assets/screenshots/ru/mobile-projects.png" width="340" alt="Список проектов на телефоне с работающими задачами, лимитами и настройками"></a>
 </p>
 
-To reply to a passage, select the text and press Reply.
+Чтобы ответить на фрагмент сообщения, выделите текст и нажмите «Ответить».
 
-<p align="center"><a href="assets/screenshots/en/mobile-reply.png"><img src="assets/screenshots/en/mobile-reply.png" width="340" alt="Selected passage in a mobile chat with Reply on the right, aligned with the message field's first line"></a></p>
+<p align="center"><a href="assets/screenshots/ru/mobile-reply.png"><img src="assets/screenshots/ru/mobile-reply.png" width="340" alt="Выделенный фрагмент мобильного чата и кнопка Ответить справа на уровне первой строки поля ввода"></a></p>
 
-## Ways to connect
+## Где можно пользоваться
 
-| Option | How to open it |
+| Вариант | Как открыть |
 | --- | --- |
-| On this PC | Use the Codex Local app or open `http://127.0.0.1:4317` in a browser; the port is configurable |
-| On your network | Open **Settings → Connection → Local network**, copy the PC address and open it on another device |
-| Over the internet | Configure an HTTPS domain and reverse proxy to the panel, then enter the address in **Settings → Connection → Domain** |
-| As a phone app | Open the HTTPS address in a browser, add the panel to your home screen and enable notifications in settings |
+| На этом ПК | Приложение Codex Local или `http://127.0.0.1:4317` в браузере; порт можно изменить |
+| В своей сети | **Настройки → Подключение → Локальная сеть**: скопируйте адрес ПК и откройте его на другом устройстве |
+| Через интернет | Настройте HTTPS-домен и обратный прокси к панели, затем укажите адрес в **Настройки → Подключение → Через домен** |
+| Как приложение на телефоне | Откройте HTTPS-адрес в браузере и добавьте панель на главный экран; включите уведомления в настройках |
 
-All devices connect to the same panel on your Windows PC: project files and task execution remain there. Keep the computer awake and Codex Local running, including in the tray. Set up the domain, certificate and external routing separately; the panel does not provision them automatically. Regular web access over a local IP works without a domain; PWA installation and push on other devices require HTTPS and browser support.
+Это доступ к одной панели на вашем Windows-ПК: файлы и выполнение задач остаются на нём. Компьютер должен быть включён, а Codex Local — запущен, в том числе в трее. Домен, сертификат и внешнюю маршрутизацию нужно настроить отдельно; панель не создаёт их автоматически. Обычный веб-доступ по локальному IP работает без домена, а PWA и push на других устройствах требуют HTTPS и поддержки браузера.
 
-Usage estimates rely on the counters Codex provides and can include other tasks running in parallel. Codex Resets predictions come from a third-party announcement service and do not guarantee a reset. Requests that specifically require confirmation in Codex open in its desktop app.
+Оценка расхода основана на доступных счётчиках Codex: при параллельной работе она может учитывать несколько задач. Прогнозы Codex Resets — объявления стороннего сервиса, а не гарантия сброса. Запросы, требующие подтверждения именно в Codex, открываются в его приложении на ПК.
 
-## Data and access
+## Данные и доступ
 
-The installer contains no other user's accounts, conversations, project files or connection settings. Panel data is created on your PC under `%LOCALAPPDATA%\CodexLocal`; Codex manages its own authentication. The panel contacts GitHub for updates and Codex Resets for public reset announcements. Model requests are processed by the services your Codex connects to.
+Установщик не содержит чужих аккаунтов, переписки, файлов проектов или настроек подключения. Данные панели создаются на вашем ПК в `%LOCALAPPDATA%\CodexLocal`; авторизацией Codex управляет сам Codex. Панель обращается к GitHub за обновлениями и к Codex Resets за публичным расписанием сбросов. Запросы к моделям обрабатываются сервисами, к которым подключён ваш Codex.
 
-Web access is protected by the panel's local account. To connect a phone, open **Settings → Connection**. PWA push notifications require configured HTTPS access. Keep your panel password and authentication files private.
+Веб-доступ защищён локальным аккаунтом панели. Для телефона откройте **Настройки → Подключение**; для PWA с push-уведомлениями нужен настроенный HTTPS-доступ. Не публикуйте пароль панели или файлы авторизации.
 
-## Feedback
+## Обратная связь
 
-[Open an issue](https://github.com/DenisG1302/codex-local/issues/new) with the app version, expected behavior and reproduction steps. Remove personal information from screenshots. Do not attach tokens, session directories or complete logs containing private conversations.
+Нашли ошибку? [Создайте issue](https://github.com/DenisG1302/codex-local/issues/new): укажите версию, ожидаемое поведение и шаги воспроизведения. Уберите со скриншотов личные данные. Не прикладывайте токены, папки сессий или полные журналы с приватной перепиской.
 
-Third-party component license notices are included with the installation. Public availability of the installer does not make the application source code public.
+Сведения о компонентах и их лицензиях включены в установку. Публичная доступность установщика не означает публикацию исходников приложения.
