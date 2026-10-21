@@ -22,7 +22,6 @@ The interface is available in English and Russian. Choose your language in Setti
 
 | Feature | What it adds |
 | --- | --- |
-| [Extensions](assets/screenshots/en/extensions.png) | Plugins, apps, MCP, skills and hooks in one place, with a catalog, available controls and instructions for actions that require Codex |
 | Projects and pinned chats | Pinning in the main list or within a project; all project pins and two regular chats when expanded |
 | Chat search | Search by text or description; “By meaning” finds and opens the matching chat |
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
