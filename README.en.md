@@ -105,7 +105,7 @@ Focus mode gives the current conversation more room while keeping running tasks 
 
 ## Open files beside the conversation
 
-Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat. The file menu shows the full path; click it to copy.
+Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat. The file menu shows the full path; click it to copy. Photos from attachments and links open in a separate image viewer.
 
 ![TypeScript component open in the file viewer beside its conversation](assets/screenshots/en/code-preview.png)
 
