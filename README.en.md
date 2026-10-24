@@ -47,7 +47,7 @@ In the “Pin chat” menu, choose “Within project” or “In the main list�
 
 [![Project pins, two regular chats and the choice of where to pin a chat](assets/screenshots/en/project-pins.png)](assets/screenshots/en/project-pins.png)
 
-Open search with Ctrl+K, select “By meaning” and describe the chat. A lightweight model and its available fast mode are selected automatically; the search chat is never saved in history. If several chats match, choose one from the list.
+Open search with Ctrl+K and describe the chat in “By meaning” mode. Queries such as “Plex setup” find matches in messages locally, without a model request; more complex descriptions automatically use a lightweight model and its available fast mode. If several chats match, choose one from the list; the temporary search chat is never saved in history.
 
 ![Search by description with project filtering and matching chats](assets/screenshots/en/chat-search.png)
 
