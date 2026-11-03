@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.86"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.87"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -64,7 +64,7 @@ In Settings → Overlay, choose the appearance, size, position and opacity; Test
 
 ## Listen to answers
 
-Download Silero in Settings → Speech and choose one of five Russian voices, reading speed, volume, and CPU or NVIDIA GPU processing. Listen to final answers or include progress updates; enabled speech loads when the app starts.
+Download Silero in Settings → Speech and choose one of five Russian voices, reading speed, volume, and CPU or NVIDIA GPU processing. Listen to final answers or include progress updates; enabled speech loads when the app starts. When switching from CPU to GPU, click “Download Silero” again to prepare the required libraries.
 
 The speech button in a chat or overlay pins that chat or stops all reading. You can disable automatic switching to another working chat, or use “Read aloud” in a message menu to hear one answer. Available in the Windows app; the model downloads separately from the installer.
 
