@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/latest"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.86"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -28,6 +28,7 @@ The interface is available in English and Russian. Choose your language in Setti
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
 | Multiple chats at once | Up to five side-by-side panes, or Focus: one large chat with cards for active and unread tasks |
 | Overlay | Follow progress above other apps and switch between chats |
+| Read answers aloud | Five Russian Silero voices, speech for the selected chat and optional automatic chat switching |
 | Replies to messages | Reply to a message or selected passage without copying the text |
 | Forwarding between chats | Prepare a message with files and photos in another chat, add a comment and send when ready |
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
@@ -60,6 +61,14 @@ In Settings → Overlay, choose the appearance, size, position and opacity; Test
 | Progress window | Compact settings |
 | --- | --- |
 | [![Always-on-top window with latest progress, status, pinning and chat switching](assets/screenshots/en/overlay.png)](assets/screenshots/en/overlay.png) | [![Dedicated overlay tab with visual style cards and a real test window](assets/screenshots/en/overlay-settings.png)](assets/screenshots/en/overlay-settings.png) |
+
+## Listen to answers
+
+Download Silero in Settings → Speech and choose one of five Russian voices, reading speed, volume, and CPU or NVIDIA GPU processing. Listen to final answers or include progress updates; enabled speech loads when the app starts.
+
+The speech button in a chat or overlay pins that chat or stops all reading. You can disable automatic switching to another working chat, or use “Read aloud” in a message menu to hear one answer. Available in the Windows app; the model downloads separately from the installer.
+
+![Speech settings: voice, rate, device and automatic chat switching](assets/screenshots/en/speech-settings.png)
 
 ## Rules with the Codex assistant
 
