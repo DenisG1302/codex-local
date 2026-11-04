@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.88"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.89"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -76,7 +76,9 @@ In Settings → Instructions, edit global rules or a project’s AGENTS.md. The 
 
 ## Model, fast mode and message queue
 
-The control beside the composer sets the model, reasoning level and speed for the next message, including Ultrafast when available. Change the current task’s speed beside its status; faster modes use more credits. If a selected model disappears, the panel switches to the strongest available model.
+Choose the model, reasoning level and available speed beside the composer, including Ultrafast. In Settings → Models, choose which models appear in the chat menu; unavailable models disappear automatically. Change the current task’s speed beside its status; faster modes use more credits.
+
+![Choosing which models appear in the chat menu](assets/screenshots/en/models-settings.png)
 
 Messages sent during a task wait in a queue. Change their order, text, attachments and settings; Steer sends a message into the current task. The queue survives a restart and works without an open window. If a separate Codex process owns the chat, sending waits until it releases the chat.
 
