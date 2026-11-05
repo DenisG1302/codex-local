@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Ваш Codex — на ПК, в браузере и на телефоне.</p>
   <p><strong>Windows x64 · локальная панель · веб-доступ и PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.91"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.92"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
 </div>
 
 ---
@@ -101,6 +101,14 @@ Codex Local — независимое Windows-приложение для ра�
 Выберите нужные инструкции, опишите изменение и сравните предложение помощника с текущим текстом. Примените его, когда результат вас устроит.
 
 ![Правила проекта и помощник Codex: предложенное правило выделено в изменениях, доступны кнопки «Применить» и «Отклонить»](assets/screenshots/ru/instructions.png)
+
+## Сохранённые разрешения
+
+В запросе доступа Computer Use выберите «Подтверждать всегда», чтобы повторный доступ к этому приложению подтверждался в фоне. Просматривайте и удаляйте сохранённые разрешения в «Настройки → Разрешения».
+
+![Разовое и постоянное подтверждение доступа к приложению](assets/screenshots/ru/approval-remember.png)
+
+![Список сохранённых авторазрешений с удалением](assets/screenshots/ru/auto-approvals.png)
 
 ## Планируйте следующие сообщения
 

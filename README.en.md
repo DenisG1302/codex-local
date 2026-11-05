@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.91"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.92"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -101,6 +101,14 @@ In the Windows app, a clipboard photo appears as a thumbnail above the active ch
 Choose the rules to edit, describe the change and compare the assistant’s proposal with the current text. Apply it when you are ready.
 
 ![Project rules and the Codex assistant, with a proposed rule highlighted and Apply and Decline controls](assets/screenshots/en/instructions.png)
+
+## Saved permissions
+
+Choose Always approve in a Computer Use app-access request to approve repeat access to that app in the background. Review and remove saved permissions in Settings → Permissions.
+
+![Confirm once or always approve app access](assets/screenshots/en/approval-remember.png)
+
+![Saved automatic approvals with a Remove button](assets/screenshots/en/auto-approvals.png)
 
 ## Plan the next messages
 
