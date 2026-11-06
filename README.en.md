@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.92"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.93"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -22,7 +22,7 @@ The interface is available in English and Russian. Choose your language in Setti
 
 | Feature | What it adds |
 | --- | --- |
-| Projects and pinned chats | Pinning in the main list or within a project; all project pins and two regular chats when expanded |
+| Projects and pinned chats | Move chats between projects and pin them in the main list or within a project |
 | Chat search | Search by text or description; “By meaning” finds and opens the matching chat |
 | Limits at a glance | Remaining allowance, renewal times and estimated request usage in one place |
 | Resets and forecasts | Available resets with confirmation, plus announcements of possible resets from Codex Resets |
@@ -47,6 +47,10 @@ For Computer Use, keep the official Codex app running with its Computer Use plug
 In the “Pin chat” menu, choose “Within project” or “In the main list”. Project pins are saved only in Codex Local and do not sync with Codex.
 
 [![Project pins, two regular chats and the choice of where to pin a chat](assets/screenshots/en/project-pins.png)](assets/screenshots/en/project-pins.png)
+
+Choose “Move to project” in the chat menu. History and attachments stay with the chat; its working folder and files stay in place. Model and usage details appear on the left below a message, with its send date and time on the right.
+
+![Moving a chat and message date](assets/screenshots/en/chat-move.png)
 
 Open search with Ctrl+K and describe the chat in “By meaning” mode. Queries such as “Plex setup” find matches in messages locally, without a model request; more complex descriptions automatically use a lightweight model and its available fast mode. If several chats match, choose one from the list; the temporary search chat is never saved in history.
 
