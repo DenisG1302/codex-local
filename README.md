@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Ваш Codex — на ПК, в браузере и на телефоне.</p>
   <p><strong>Windows x64 · локальная панель · веб-доступ и PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.93"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.94"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
 </div>
 
 ---
@@ -55,6 +55,10 @@ Codex Local — независимое Windows-приложение для ра�
 Откройте поиск через Ctrl+K и опишите нужный чат в режиме «По смыслу». Запросы вроде «Настройка Plex» находят совпадения в сообщениях локально, без обращения к модели; для сложного описания автоматически подключается лёгкая модель с доступным ускорением. Если подходят несколько чатов, выберите нужный из списка; служебный поисковый чат не сохраняется в истории.
 
 ![Поиск по описанию с выбором проекта и подходящих чатов](assets/screenshots/ru/chat-search.png)
+
+Стрелка рядом с полосой прокрутки плавно возвращает к последнему сообщению, когда вы читаете переписку выше.
+
+![Стрелка перехода к последнему сообщению рядом с полосой прокрутки](assets/screenshots/ru/scroll-to-bottom.png)
 
 ## Оверлей
 

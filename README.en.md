@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.93"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.94"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -55,6 +55,10 @@ Choose “Move to project” in the chat menu. History and attachments stay with
 Open search with Ctrl+K and describe the chat in “By meaning” mode. Queries such as “Plex setup” find matches in messages locally, without a model request; more complex descriptions automatically use a lightweight model and its available fast mode. If several chats match, choose one from the list; the temporary search chat is never saved in history.
 
 ![Search by description with project filtering and matching chats](assets/screenshots/en/chat-search.png)
+
+The arrow beside the scrollbar smoothly returns to the latest message when you are reading earlier in the conversation.
+
+![Arrow beside the scrollbar for jumping to the latest message](assets/screenshots/en/scroll-to-bottom.png)
 
 ## Overlay
 
