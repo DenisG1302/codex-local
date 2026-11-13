@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.98"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.99"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -34,6 +34,7 @@ The interface is available in English and Russian. Choose your language in Setti
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
 | Rules with Codex | Edit global instructions or a project’s AGENTS.md; review the assistant’s proposed changes before applying them |
 | Model and speed | Choose a model, reasoning level and available speed, including Ultrafast; change the current task's speed |
+| Reasoning advisor | A suggestion based on task complexity and chat context, including supported Max and Ultra, with an explanation and explicit application |
 | Message queue | Edit text, attachments and model settings for each waiting message, and rearrange their order |
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
@@ -81,6 +82,12 @@ Listen to final answers or include progress updates; tables are skipped. The spe
 ## Rules with the Codex assistant
 
 In Settings → Instructions, edit global rules or a project’s AGENTS.md. The Codex assistant changes and organizes rules at your request. Review the proposed changes and select Apply. New rules take effect in new chats.
+
+## Reasoning advice for your task
+
+Draft a task and choose “Suggest for this task” in the model menu. The advisor considers the chat context, explains a suitable effort, including Max or Ultra when supported, and applies it when you choose Apply.
+
+![Reasoning advice with an explanation and an Apply button](assets/screenshots/en/reasoning-advisor.png)
 
 ## Model, fast mode and message queue
 
@@ -132,7 +139,7 @@ Focus mode gives the current conversation more room while keeping running tasks 
 
 ## Open files beside the conversation
 
-Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat. The file menu shows the full path; click it to copy. Photos from attachments and links open in a separate image viewer.
+Read code with syntax highlighting and line numbers, search within a file, and stay in the same chat. The file menu shows the full path; click it to copy. Photos from attachments and links open in a separate image viewer; Ctrl + mouse wheel zooms the picture, and holding the left mouse button pans the enlarged image.
 
 ![TypeScript component open in the file viewer beside its conversation](assets/screenshots/en/code-preview.png)
 
