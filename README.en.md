@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.99"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.100"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -34,7 +34,7 @@ The interface is available in English and Russian. Choose your language in Setti
 | Quick commands | Send a saved reply with one click; add your own choices and remove ones you do not need |
 | Rules with Codex | Edit global instructions or a project’s AGENTS.md; review the assistant’s proposed changes before applying them |
 | Model and speed | Choose a model, reasoning level and available speed, including Ultrafast; change the current task's speed |
-| Reasoning advisor | A suggestion based on task complexity and chat context, including supported Max and Ultra, with an explanation and explicit application |
+| Task preparation | Choice between Sol and Astra, reasoning advice, and clearer task wording to review before applying |
 | Message queue | Edit text, attachments and model settings for each waiting message, and rearrange their order |
 | Your own web access | Use the panel in a local browser, over your network or through your own HTTPS domain |
 | Phone and PWA | Access chats from your phone and add the panel to your home screen |
@@ -83,11 +83,15 @@ Listen to final answers or include progress updates; tables are skipped. The spe
 
 In Settings → Instructions, edit global rules or a project’s AGENTS.md. The Codex assistant changes and organizes rules at your request. Review the proposed changes and select Apply. New rules take effect in new chats.
 
-## Reasoning advice for your task
+## Task preparation advisor
 
-Draft a task and choose “Suggest for this task” in the model menu. The advisor considers the chat context, explains a suitable effort, including Max or Ultra when supported, and applies it when you choose Apply.
+Draft a task and choose “Suggest for this task” in the model menu. The advisor suggests GPT-6.1 Sol or GPT-6 Astra, a suitable reasoning effort including Max and Ultra, and clearer wording with questions about missing details.
 
-![Reasoning advice with an explanation and an Apply button](assets/screenshots/en/reasoning-advisor.png)
+Apply the model and effort separately from the text. Review and edit the proposed wording, and restore your original text whenever needed.
+
+![Suggested model and reasoning effort](assets/screenshots/en/reasoning-advisor.png)
+
+![Reviewing and editing task wording](assets/screenshots/en/task-wording.png)
 
 ## Model, fast mode and message queue
 
