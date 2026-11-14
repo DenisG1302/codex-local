@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Your Codex — on your PC, in a browser and on your phone.</p>
   <p><strong>Windows x64 · local panel · web access and PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.102"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.103"><strong>Download installer</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Release notes</a> · <a href="README.md">Русский</a></p>
 </div>
 
 ---
@@ -85,7 +85,7 @@ In Settings → Instructions, edit global rules or a project’s AGENTS.md. The 
 
 ## Task preparation advisor
 
-Draft a task and choose “Suggest for this task” in the model menu. The advisor suggests GPT-6.1 Sol or GPT-6 Astra, a suitable reasoning effort including Max and Ultra, and clearer wording with questions about missing details.
+Draft a task, attach photos if needed and choose “Suggest for this task” in the model menu. The advisor uses the text and images to suggest GPT-6.1 Sol or GPT-6 Astra, a suitable reasoning effort including Max and Ultra, and clearer wording with questions about missing details.
 
 Apply the model and effort separately from the text. Review and edit the proposed wording, and restore your original text whenever needed.
 
