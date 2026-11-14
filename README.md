@@ -3,7 +3,7 @@
   <h1>Codex Local</h1>
   <p>Ваш Codex — на ПК, в браузере и на телефоне.</p>
   <p><strong>Windows x64 · локальная панель · веб-доступ и PWA</strong></p>
-  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.101"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
+  <p><a href="https://github.com/DenisG1302/codex-local/releases/tag/installer-v0.8.102"><strong>Скачать установщик</strong></a> · <a href="https://github.com/DenisG1302/codex-local/releases">Что нового</a> · <a href="README.en.md">English</a></p>
 </div>
 
 ---
